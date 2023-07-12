@@ -1,0 +1,15 @@
+#parent{
+    height: 700px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#child{
+    height: 300px;
+    border: 1px solid black;
+    flex-basis: 22%;
+    background-color: aliceblue;
+}

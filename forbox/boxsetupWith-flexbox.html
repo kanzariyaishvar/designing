@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 box setup with flexbox</title>
+    <link rel="stylesheet" href="css/BoxSetupWith-flexbox.css">
+</head>
+<body>
+    <div id="parent">
+        <div id="child">
+            this is parent css<br><br>
+            #parent{
+                height: 700px;<br>
+                width: 80%;<br>
+                border: 1px solid black;<br>
+                display: flex;<br>
+                flex-wrap: wrap;<br>
+                justify-content: space-evenly;<br>
+                align-items: center;<br>
+            }
+        </div>
+        <div id="child">
+            this is child css<br><br>
+            #child{<br>
+                height: 300px;<br>
+                border: 1px solid black;<br>
+                flex-basis: 22%;<br>
+            }
+        </div>
+        <div id="child"></div>
+        <div id="child"></div>
+        <div id="child"></div>
+        <div id="child"></div>
+        <div id="child"></div>
+        <div id="child"></div>
+    </div>
+</body>
+</html>
