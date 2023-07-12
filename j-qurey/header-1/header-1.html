@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header-2</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="head">
+            <div id="logo">
+                <h2>plataforma</h2>
+            </div>
+            <i class="ri-menu-line"></i>
+            <nav>
+                <ul>
+                    <li><a href=""><i class="ri-home-gear-line"></i>Home</a></li>
+                    <li><a href=""><i class="ri-chat-settings-fill"></i>about</a></li>
+                    <li><a href=""><i class="ri-volume-up-fill"></i>speakers</a></li>
+                    <li><a href=""><i class="ri-edit-box-fill"></i>schedule</a></li>
+                    <li><a href=""><i class="ri-global-line"></i>blog</a></li>
+                    <li><a href=""><i class="ri-contacts-fill"></i>contact</a></li>
+                </ul>
+                <button>buy ticket</button>
+            </nav>
+        </div>
+        <h3>menu<i class="ri-arrow-down-s-line"></i></h3>
+    </header>
+</body>
+    <script>
+        $(document).ready(function(){
+            $('.ri-arrow-down-s-line').click(function(){
+                $('nav').toggle(1000)
+            });
+        });
+    </script>
+</html>

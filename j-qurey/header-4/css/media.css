@@ -1,0 +1,46 @@
+@media (max-width:980px) {
+   #head .logo{
+      font-size: 32px;
+      padding-left: 60px;
+   }
+   nav ul{
+      margin-right: 20px;   
+   }
+   nav a{
+      font-size: 17px;
+   }
+}
+@media (max-width:909px) {
+   nav #icon{
+      display: block;
+   }
+   nav ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2f3640;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      float: right;
+      transform: all .5s;
+      margin-right: 40px;
+      }
+   nav li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;  
+   }
+   nav a{
+      font-size: 20px;
+   }
+   a.active,a:hover{
+      border: none;
+      color: #3498db;
+
+   }
+   nav ul.show{
+      left: 0;
+
+   }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slide up</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="head">
+            <div id="logo"><i class="ri-drag-move-line"></i>Hosthub</div>
+    <nav>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">pages</a></li>
+            <li><a href="">bloag</a></li>
+            <li><a href="">service</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+    </nav>
+        </div>
+    </header>
+    <i class="ri-menu-line"></i>
+</body>
+<script>
+    $(document).ready(function(){
+        $('.ri-menu-line').click(function(){
+            $('nav').slideToggle(1000)
+        })
+    })
+</script>
+</html>
